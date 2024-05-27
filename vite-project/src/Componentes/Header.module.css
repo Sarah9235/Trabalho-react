@@ -1,0 +1,21 @@
+/* instalar a extensão css modules */
+.header{
+     font-size: 22px;
+   /* background-color: pink;
+    color: white; */
+    font-family: 'roboto',sans-serif;
+    color: #fff;
+    background-color: rgb(232, 145, 130);
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.linkmenu{
+    text-decoration: none;
+    color: #fff;
+}
