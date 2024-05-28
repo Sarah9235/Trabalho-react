@@ -6,7 +6,7 @@ export function Missao(props) {
   return (
 
 <div>
-     <h1>{props.nomePagina}</h1>
+     <h1 className={styles.missaoTitulo}>{props.nomePagina}</h1>
      
      <p className={styles.missao}>{props.missao}</p>
 

@@ -1,5 +1,13 @@
-.produtos{
+.produtos {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: max-content;
+    margin: 20px auto; /* Adicionar margem para separar o elemento de outros conteúdos */
+    border: 10px solid white; /* Definir uma borda branca de tamanho consistente */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.1); /* Adicionar uma sombra para destacar */
+}
+
+.produtoTitulo {
+    font-family: 'Poetsen One';
 }

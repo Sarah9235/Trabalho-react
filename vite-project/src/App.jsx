@@ -22,7 +22,7 @@ function App() {
     nomePagina='Missão' 
     missao='"Ser o melhor varejista do Brasil na
 
-    mente e no coração dos consumidores e funcionários.'/>} />
+    mente e no coração dos consumidores e funcionários."'/>} />
 
 
     <Route path='/produto' element={<Produto
@@ -35,12 +35,13 @@ function App() {
     />} />
 
     <Route path='/historia' element={<Historia nomePagina='Nossa Historia' 
-    conteudoHistoria=' Lorem adipisicing elit. Sed alias labore dicta nesciunt debitis commodi nihil ducimus! Fuga sunt molestias error esse ullam est sit amet consectetur adipisicing elit. Sed molestias aliquid officia rerum totam, numquam voluptatibus nostrum deserunt vitae expedita facere alias labore dicta nesciunt! Necessitatibus fugiat quaerat aspernatur voluptatem, debitis commodi nihil ducimus! Fuga sunt molestias error esse ullam est tenetur, modi obcaecati totam officia! Asperiores esse deserunt tenetur, modi obcaecati totam officia! Asperiores esse deserunt quidem amet consectetur adipisicing elit. Sed molestias aliquid officia rerum totam, numquam voluptatibus nostrum deserunt vitae   '/>} />
+    conteudoHistoria=' Fundado em 1972 por Joaquim Sabiá em Boa Esperança, o Mercado Sabiá sempre ofereceu produtos frescos de agricultores locais. Em 1995, sua filha Ana modernizou o mercado, adicionando produtos orgânicos e um café. Conhecido pela qualidade e atendimento, o mercado continua crescendo com foco na comunidade.    '/>} />
+
 
     <Route path='/contato' element={<Contato nomePagina='Contato' 
-    contato='+55 (78)99999-1010'
-    contato2='llllolp@hotmail.com'
-    contato3='22204913@gmail.com.br'/>} />
+    contato='+55 (32) 9 1234-5678'
+    contato2='mercado.sabia@hotmail.com'
+    contato3='@Sabia_Varejista'/>} />
     </Routes>
 
      { <Footer nomeFooter='TODOS OS DIREITOS RESERVADOS' /> }

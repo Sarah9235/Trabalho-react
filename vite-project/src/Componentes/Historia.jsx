@@ -1,10 +1,10 @@
-
+import styles from './Missao.module.css'
 export function Historia(props) {
   return (
 
 <div>
 
-    <h1>{props.nomePagina}</h1>
+    <h1  className={styles.missaoTitulo}>{props.nomePagina}</h1>
     <p>{props.conteudoHistoria}</p>
 
 
